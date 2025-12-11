@@ -1,0 +1,13 @@
+num = int(input("Enter a number: "))
+
+last = num % 10
+first = int(str(num)[0])
+
+print("Sum=" , last + first)
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\First and last digit.py" 
+Enter a number: 4587
+Sum= 11
+
+Process finished with exit code 0
